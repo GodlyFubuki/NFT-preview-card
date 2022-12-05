@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+    
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    height: 543px;
+    width: 327px;
+}
+
+.card img{
+    width: 278px;
+    height: 278px;
+    
+    margin-top: 24px;
+    border-radius: 10px;
+    
+}
+
+
+
+.card {
+    margin-bottom: 20px;
+    margin: 0 24px;
+    
+}
+
+.card h2{
+    color: #f2f2f2;
+    margin-top: 20px;
+}
+
+.card h4{
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    padding-top: 10px;
+}
+
+.card h2,img {
+    cursor: pointer;
+}
+
+.card h2:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.desc {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 2px hsl(215, 32%, 27%) ;
+    padding-bottom: 20px;
+    margin: 0 24px;
+    padding-top: 10px;
+}
+
+.desc h4{
+    color: hsl(178, 100%, 50%);
+
+}
+
+.desc span{
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+
+.price {
+    display: flex;   
+}
+
+.price h4{
+    margin-left: 1em;
+}
+
+.days {
+    display: flex;
+}
+
+.days span{
+    margin-left: 1em;
+}
+
+.author {
+    display: flex;
+    justify-content: left;
+    margin-top: 30px;
+    margin-bottom: 31px;
+}
+
+.author p{
+    color: hsl(215, 51%, 70%);
+}
+
+.author img{
+    width: 33px;
+    border: solid 1px white;
+    border-radius: 50px;
+    margin-right: 20px;
+    margin-left: 24px;
+    margin-bottom: 31px;
+    
+}
+
+.author span{
+    color: white;
+    cursor: pointer;
+}
+
+.author span:hover {
+    color:hsl(178, 100%, 50%)
+}
+
+.card #view{
+    position: absolute;
+    left: 50%;
+    top: 36%;
+    transform: translate(-50%,-50%);
+    width: 280px;
+    height: 280px;
+    background-color: hsl(178, 100%, 50%);;
+    opacity:0 
+    
+}   
+
+
+.card #view:hover{
+    opacity: 0.4;
+}
